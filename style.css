@@ -1,3 +1,9 @@
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 nav span {
   display: inline-block;
   padding: 20px 10px;
@@ -36,4 +42,25 @@ header {
 
 header nav {
   padding-right: 40px;
+}
+
+.content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
